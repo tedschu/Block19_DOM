@@ -1,19 +1,4 @@
 
-// // Creates variable to reference wrapper and section IDs
-// const wrapperEle = document.getElementById('wrapper');
-// const sectionEle = document.getElementById('text');
-
-// // STYLING to elements
-// wrapperEle.style.height="80vh";
-//     wrapperEle.style.background="gold";
-//     wrapperEle.style.textAlign="center";
-//     wrapperEle.style.border="2px solid black";
-//     wrapperEle.style.display="flex";
-//     wrapperEle.style.justifyContent="center";
-
-// sectionEle.style.height="150px";
-//     sectionEle.style.width="80%";
-//     sectionEle.style.background="lightblue";
 
 
 // // STATIC TEXT in header box
@@ -54,6 +39,17 @@ freelancers.forEach((i)=>{
     document.querySelector(".price").innerHTML = i.StartingPrice;
 
 }) 
+
+// STYLE 
+contentContainer.style.border="2px solid black";
+    contentContainer.style.display="flex";
+    contentContainer.style.justifyContent="space-around";
+    contentContainer.style.maxWidth="700px";
+
+
+
+
+
 
 
 // CAN'T FIGURE OUT HOW TO OUTPUT TEXT + DYNAMIC VALUE TO AN EXISTING DYNAMIC ELEMENT (EX. DIV CLASS NAME ABOVE)
